@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.boton-personalizado {
+  width: 50px;       /* Ancho del botón (ajusta según tu imagen) */
+  height: 50px;      /* Alto del botón */
+  background-image: url('fotos/pagina/3rayas.png');  /* Ruta de tu imagen */
+  background-size: cover;    /* Ajusta la imagen al tamaño del botón */
+  background-repeat: no-repeat;
+  border: none;       /* Quita el borde predeterminado */
+  cursor: pointer;    /* Cambia el cursor al pasar el mouse */
+  background-color: transparent; /* Fondo transparente */
+  padding: 0;         /* Elimina relleno predeterminado */
+  position: fixed;            /* Fijo en la pantalla */
+  z-index: 1000;
+  top: 20px;                 /* Distancia desde arriba */
+  right: 20px;            /* Distancia desde la derecha */
+}
+
+/* Efecto al pasar el mouse (opcional) */
+.boton-personalizado:hover {
+  opacity: 0.8;       /* Leve transparencia */
+}
+#panel-opciones {
+    position: fixed;
+    top: 0;
+    right: -500px; /* Comienza oculto fuera de la pantalla */
+    width: 250px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    padding: 20px;
+    transition: right 0.3s ease;
+    z-index: 999;
+}
+
+#panel-opciones.mostrar {
+    right: 0; /* Desliza hacia adentro */
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+ #panel-lugar {
+  position: fixed;
+  top: 0;
+  left: -350px; /* Oculto fuera del borde izquierdo */
+  width: 300px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+#panel-lugar.mostrar {
+  left: 0;
+}
+
+#cerrar-panel-lugar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+#encabezado {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#encabezado h1 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+#encabezado p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #555;
+}
