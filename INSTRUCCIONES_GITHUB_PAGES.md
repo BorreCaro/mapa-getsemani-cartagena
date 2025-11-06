@@ -123,7 +123,7 @@ Agrega meta tags en `index.html`:
 ```html
 <meta name="description" content="Mapa interactivo de Getsemaní, Cartagena - Puntos de interés clasificados por comercio, vivienda, ambiente y patrimonio">
 <meta name="keywords" content="Getsemaní, Cartagena, mapa, turismo, Colombia">
-<meta name="author" content="Pedro Eli Diaz Olarte, Jairo Daniel Jimenez Arzuza">
+<meta name="author" content="Pedro Eli Diaz Olarte, Daniel Esteban Borré Caro">
 ```
 
 ---
