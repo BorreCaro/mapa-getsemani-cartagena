@@ -13,7 +13,7 @@ Este proyecto es un mapa interactivo que muestra diferentes puntos de interés c
 ## 👥 Integrantes
 
 - Pedro Eli Diaz Olarte - 0222410068
-- Jairo Daniel Jimenez Arzuza - 0222410011
+- Daniel Esteban Borré Caro - 0222510016
 
 ## 🚀 Características
 
