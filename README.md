@@ -45,7 +45,22 @@ ProyectoFinal/
 
 ## 🌐 Demo en Vivo
 
-[Ver Demo](https://tu-usuario.github.io/ProyectoFinal/)
+[Ver Demo en GitHub Pages](https://BorreCaro.github.io/mapa-getsemani-cartagena/)
+
+## 📚 Instalación Local
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/BorreCaro/mapa-getsemani-cartagena.git
+```
+
+2. Abre `index.html` en tu navegador
+
+## 📝 Uso
+
+1. Haz clic en los iconos del panel lateral para filtrar puntos de interés
+2. Haz clic en los marcadores del mapa para ver información detallada
+3. Navega por el mapa usando zoom y desplazamiento
 
 ## 📄 Licencia
 

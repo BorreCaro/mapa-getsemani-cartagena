@@ -13,31 +13,32 @@
 
 ### 1️⃣ Crear el Repositorio en GitHub
 
-1. Ve a [GitHub.com](https://github.com)
-2. Click en el botón **"+"** arriba a la derecha → **"New repository"**
-3. Nombre sugerido: `mapa-getsemani-cartagena`
-4. Descripción: `Mapa interactivo de puntos de interés en Getsemaní, Cartagena`
-5. Elige **Public** o **Private** (con GitHub Pro funciona igual)
-6. ❌ **NO** inicialices con README (ya tienes uno)
-7. Click en **"Create repository"**
+✅ **¡YA COMPLETADO!** Tu repositorio fue creado exitosamente.
 
 ### 2️⃣ Conectar tu Proyecto Local con GitHub
 
-Copia el URL de tu repositorio (aparecerá algo como: `https://github.com/TU-USUARIO/mapa-getsemani-cartagena.git`)
+✅ **¡YA COMPLETADO!** Tu repositorio está en:
+`https://github.com/BorreCaro/mapa-getsemani-cartagena.git`
 
-Ejecuta estos comandos en tu terminal (PowerShell):
+Los comandos ejecutados fueron:
 
 ```powershell
-# Verificar que estás en el directorio correcto
-cd D:\Daniel\IDES\WebstormProjects\ProyectoFinal
+# Inicializar el repositorio
+git init
 
-# Agregar el remote de GitHub (reemplaza TU-USUARIO con tu usuario de GitHub)
-git remote add origin https://github.com/TU-USUARIO/mapa-getsemani-cartagena.git
+# Agregar todos los archivos
+git add .
 
-# Renombrar la rama a main (estándar de GitHub)
+# Hacer el primer commit
+git commit -m "Primer commit: Mapa interactivo de Getsemani, Cartagena"
+
+# Renombrar la rama a main
 git branch -M main
 
-# Subir tu código a GitHub
+# Agregar el remote de GitHub
+git remote add origin https://github.com/BorreCaro/mapa-getsemani-cartagena.git
+
+# Subir el código a GitHub
 git push -u origin main
 ```
 
@@ -65,8 +66,20 @@ git push -u origin main
 ## 🌐 Tu Página Estará Disponible en:
 
 ```
-https://TU-USUARIO.github.io/mapa-getsemani-cartagena/
+https://BorreCaro.github.io/mapa-getsemani-cartagena/
 ```
+
+**📍 Pasos finales para activar GitHub Pages:**
+
+1. Ve a: https://github.com/BorreCaro/mapa-getsemani-cartagena
+2. Click en **"Settings"** (⚙️ Configuración)
+3. En el menú izquierdo, busca **"Pages"**
+4. En **"Source"** (Fuente):
+   - Selecciona **"Deploy from a branch"**
+   - Branch: **main**
+   - Folder: **/ (root)**
+5. Click en **"Save"**
+6. ⏱️ Espera 1-5 minutos y tu página estará lista en el enlace de arriba
 
 ---
 
